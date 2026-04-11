@@ -7,6 +7,7 @@ on:
 
 jobs:
   run:
+    if: false
     runs-on: ubuntu-latest
     env:
       URL: 'https://airrsv.net/muramotokaiji/calendar/menuDetail/?schdlId=T003F41228'
